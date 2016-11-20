@@ -45,7 +45,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\getSpeed.cs" />
+     <Compile Include="Assets\Scripts\onClickMenuSelect.cs" />
      <Compile Include="Assets\Scripts\onClickSnowboard.cs" />
+     <Compile Include="Assets\Scripts\onHooverMenuText.cs" />
      <Compile Include="Assets\Scripts\rotationSnowboard.cs" />
      <Compile Include="Assets\Scripts\stateMachine.cs" />
      <Compile Include="Assets\Winter Nature Pack\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
