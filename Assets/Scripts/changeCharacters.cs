@@ -29,5 +29,6 @@ public class changeCharacters : MonoBehaviour {
         }
         characters[arrayPos].SetActive(true);
         parameterClass.currentCharacter = characters[arrayPos];
+        Debug.Log(parameterClass.currentCharacter.name);
     }
   }

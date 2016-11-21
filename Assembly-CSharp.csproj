@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\changeCharacters.cs" />
+     <Compile Include="Assets\Scripts\loadParameterOnScene.cs" />
      <Compile Include="Assets\Scripts\onClickMenuSelect.cs" />
      <Compile Include="Assets\Scripts\onClickSnowboard.cs" />
      <Compile Include="Assets\Scripts\onHooverMenuText.cs" />
