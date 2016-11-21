@@ -8,6 +8,7 @@ public class onClickSnowboard : MonoBehaviour {
     // Use this for initialization
     void Start () {
         maxMaterials = myMaterials.Length - 1;
+        parameterClass.snowboardMaterial = myMaterials[0];
     }
 	
 	// Update is called once per frame
@@ -22,6 +23,7 @@ public class onClickSnowboard : MonoBehaviour {
                 {
                     Renderer rend = GameObject.Find(hit.collider.name).GetComponent<Renderer>();
                     rend.material = myMaterials[arrayPos];
+                    parameterClass.snowboardMaterial = myMaterials[arrayPos];
                     if (arrayPos == maxMaterials)
                     {
                         arrayPos = 0;

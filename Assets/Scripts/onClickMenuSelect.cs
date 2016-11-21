@@ -4,12 +4,10 @@ using UnityEngine.SceneManagement;
 
 public class onClickMenuSelect : MonoBehaviour {
 
-    public GameObject snowboarder;
-    Animator animationObj;
 
     // Use this for initialization
     void Start () {
-        animationObj = snowboarder.GetComponent<Animator>();
+
     }
 	
 	// Update is called once per frame
@@ -24,6 +22,7 @@ public class onClickMenuSelect : MonoBehaviour {
                 {
                     case "Play":
                         Debug.Log("Play Game!");
+                        var animationObj = parameterClass.currentCharacter.GetComponent<Animator>();
                         animationObj.CrossFade("pointing",0.05f);
                         StartCoroutine(MyCoroutine());
 
