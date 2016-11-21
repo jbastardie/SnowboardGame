@@ -22,6 +22,7 @@ public class loadParameterOnScene : MonoBehaviour {
             var animator = ThirdPersonView.GetComponent<Animator>();
             var loadedAnimator = parameterClass.currentCharacter.GetComponent<Animator>();
             animator.avatar = loadedAnimator.avatar;
+            loadedAnimator.runtimeAnimatorController = null;
             UnityStandardAssets.Characters.ThirdPerson.ThirdPersonCharacter.m_MoveSpeedMultiplier = parameterClass.currentCharacter.transform.lossyScale.y;
 
             //Debug.Log("element chargé " + gameObjects.transform.Find("parameterClass.currentCharacter").gameObject.name);
