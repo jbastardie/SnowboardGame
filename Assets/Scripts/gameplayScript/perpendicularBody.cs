@@ -5,18 +5,19 @@ public class perpendicularBody : MonoBehaviour {
 
     // Use this for initialization
     public Rigidbody rigidbody;
-    public GameObject snowboarder;
     Animator animationObj;
     
     void Start () {
-        animationObj = snowboarder.GetComponent<Animator>();
+        animationObj = GetComponent<Animator>();
+        var animatorSnowboarder = parameterClass.currentCharacter.GetComponent<Animator>();
+        animatorSnowboarder.enabled = false;
     }
 
     // Update is called once per frame
     void Update() {
         //cancel z rotation
         //rigidbody.transform.rotation = Quaternion.Euler(rigidbody.transform.rotation.eulerAngles.x, rigidbody.transform.rotation.eulerAngles.y, 0);
-        transform.rotation = Quaternion.Euler(3, rigidbody.transform.eulerAngles.y+40, 0);
+        //parameterClass.currentCharacter.transform.rotation = Quaternion.Euler(3, rigidbody.transform.eulerAngles.y+40, 0);
         //transform.rotation(rigidbody.rotation.x, 0, rigidbody.rotation.z);
         //transform.eulerAngles.Set(0,transform.eulerAngles.y,0);
 
@@ -35,6 +36,6 @@ public class perpendicularBody : MonoBehaviour {
 
     void FixedUpdate()
     {
-        rigidbody.transform.rotation = Quaternion.Euler(rigidbody.transform.rotation.eulerAngles.x, rigidbody.transform.rotation.eulerAngles.y, 0);
+        //rigidbody.transform.rotation = Quaternion.Euler(rigidbody.transform.rotation.eulerAngles.x, rigidbody.transform.rotation.eulerAngles.y, 0);
     }
 }
