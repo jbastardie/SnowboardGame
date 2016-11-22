@@ -28,8 +28,8 @@ public class switchWalkSnowboard : MonoBehaviour {
             {
                 animationObj.CrossFade("snowboardState",0.1f);
                 snowboardObject.SetActive(true);
-                parameterClass.currentCharacter.transform.localPosition = new Vector3(0.2089f, 0.04038f, 0.015553f);
-                parameterClass.currentCharacter.transform.localRotation = Quaternion.Euler(3.644f, 37.479f, 1.097f);
+                parameterClass.currentCharacter.transform.localPosition = new Vector3(0.193f, -0.079f, 0.073f);
+                parameterClass.currentCharacter.transform.localRotation = Quaternion.Euler(0, 397.787f, 0);
                 isSnowboarding = true;
             }
         }
