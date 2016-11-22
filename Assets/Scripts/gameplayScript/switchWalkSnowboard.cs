@@ -4,8 +4,7 @@ using System.Collections;
 public class switchWalkSnowboard : MonoBehaviour {
     public GameObject snowboarderController;
     public GameObject snowboardObject;
-    public RuntimeAnimatorController walkingController;
-    public RuntimeAnimatorController snowboardingController;
+
     Animator animationObj;
     private bool isSnowboarding = false;
     // Use this for initialization
@@ -19,14 +18,18 @@ public class switchWalkSnowboard : MonoBehaviour {
         {
             if (isSnowboarding)
             {
-                animationObj.runtimeAnimatorController = walkingController;
+                animationObj.CrossFade("Grounded", 0.3f);
                 snowboardObject.SetActive(false);
+                parameterClass.currentCharacter.transform.localPosition = new Vector3(0, 0, 0);
+                parameterClass.currentCharacter.transform.localRotation = Quaternion.Euler(0, 0, 0);
                 isSnowboarding = false;
             }
             else
             {
-                animationObj.runtimeAnimatorController = snowboardingController;
+                animationObj.CrossFade("snowboardState",0.1f);
                 snowboardObject.SetActive(true);
+                parameterClass.currentCharacter.transform.localPosition = new Vector3(0.2089f, 0.04038f, 0.015553f);
+                parameterClass.currentCharacter.transform.localRotation = Quaternion.Euler(3.644f, 37.479f, 1.097f);
                 isSnowboarding = true;
             }
         }
