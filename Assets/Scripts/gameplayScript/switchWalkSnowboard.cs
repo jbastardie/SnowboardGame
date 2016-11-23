@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityStandardAssets.Characters.ThirdPerson;
+using UnityEngine.SceneManagement;
 
 public class switchWalkSnowboard : MonoBehaviour {
     public GameObject snowboarderController;
@@ -21,8 +22,10 @@ public class switchWalkSnowboard : MonoBehaviour {
         {
             if (isSnowboarding)
             {
+                transform.rotation = Quaternion.Euler(0, 0, 0);
                 parameterClass.currentCharacter.transform.GetChild(0).gameObject.transform.GetChild(2).gameObject.GetComponent<perpendicularBody>().enabled = false;
                 animationObj.enabled = true;
+                StartCoroutine(TimeoutSnowMarche());
                 animationObj.CrossFade("Grounded", 0.3f);
                 snowboardObject.SetActive(false);
                 snowCollinder.enabled = false;
@@ -47,11 +50,25 @@ public class switchWalkSnowboard : MonoBehaviour {
                 GetComponent<ThirdPersonCharacter>().enabled = false;
                 GetComponent<ThirdPersonUserControl>().enabled = false;
                 GetComponent<skiController>().enabled = true;
-                parameterClass.currentCharacter.transform.GetChild(0).gameObject.transform.GetChild(2).gameObject.GetComponent<perpendicularBody>().enabled = true;
+                StartCoroutine(TimeoutMarcheSnow());
                 parameterClass.currentCharacter.transform.localPosition = new Vector3(0.093f, -0.079f, 0.073f);
                 parameterClass.currentCharacter.transform.localRotation = Quaternion.Euler(0, 392.787f, 0);
                 isSnowboarding = true;
             }
         }
+    }
+
+    IEnumerator TimeoutMarcheSnow()
+    {
+        //disable the desired script here
+        yield return new WaitForSeconds(2F);
+        parameterClass.currentCharacter.transform.GetChild(0).gameObject.transform.GetChild(2).gameObject.GetComponent<perpendicularBody>().enabled = true;
+        //enable it here
+    }
+    IEnumerator TimeoutSnowMarche()
+    {
+        //disable the desired script here
+        yield return new WaitForSeconds(2F);
+        //enable it here
     }
 }
