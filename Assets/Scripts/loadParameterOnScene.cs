@@ -19,6 +19,7 @@ public class loadParameterOnScene : MonoBehaviour {
             parameterClass.currentCharacter.transform.position = ThirdPersonView.transform.position;
             parameterClass.currentCharacter.transform.rotation = ThirdPersonView.transform.rotation;
             parameterClass.currentCharacter.transform.parent = ThirdPersonView.transform;
+            parameterClass.currentCharacter.transform.GetChild(0).gameObject.transform.GetChild(2).gameObject.AddComponent<perpendicularBody>();
             var animator = ThirdPersonView.GetComponent<Animator>();
             var loadedAnimator = parameterClass.currentCharacter.GetComponent<Animator>();
             animator.avatar = loadedAnimator.avatar;

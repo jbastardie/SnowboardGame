@@ -4,26 +4,26 @@ using System.Collections;
 public class perpendicularBody : MonoBehaviour {
 
     // Use this for initialization
-    public Rigidbody rigidbody;
     Animator animationObj;
-    
+    private GameObject parentGameObject;
+    public float xOffset=0;
+    public float yOffset=40;
+    public float zOffset = 0;
+
     void Start () {
-        animationObj = GetComponent<Animator>();
+        parentGameObject = transform.parent.gameObject.transform.parent.gameObject.transform.parent.gameObject;
+        animationObj = parentGameObject.GetComponent<Animator>();
         var animatorSnowboarder = parameterClass.currentCharacter.GetComponent<Animator>();
         animatorSnowboarder.enabled = false;
     }
 
     // Update is called once per frame
     void Update() {
-        //cancel z rotation
-        //rigidbody.transform.rotation = Quaternion.Euler(rigidbody.transform.rotation.eulerAngles.x, rigidbody.transform.rotation.eulerAngles.y, 0);
-        //parameterClass.currentCharacter.transform.rotation = Quaternion.Euler(3, rigidbody.transform.eulerAngles.y+40, 0);
-        //transform.rotation(rigidbody.rotation.x, 0, rigidbody.rotation.z);
-        //transform.eulerAngles.Set(0,transform.eulerAngles.y,0);
+        transform.rotation = Quaternion.Euler(-3 + xOffset, parentGameObject.transform.eulerAngles.y+ yOffset, -9+zOffset);
 
         //Debug.Log(transform.eulerAngles.z);
-        Debug.Log(rigidbody.transform.rotation.eulerAngles.x);
-        if ( 7 < Mathf.Abs(rigidbody.transform.rotation.eulerAngles.x) && 353 > Mathf.Abs(rigidbody.transform.rotation.eulerAngles.x))
+        //Debug.Log(parentGameObject.transform.rotation.eulerAngles.x);
+        if ( 7 < Mathf.Abs(parentGameObject.transform.rotation.eulerAngles.x) && 353 > Mathf.Abs(parentGameObject.transform.rotation.eulerAngles.x))
         {       
             animationObj.enabled = false;
         }
@@ -36,6 +36,6 @@ public class perpendicularBody : MonoBehaviour {
 
     void FixedUpdate()
     {
-        //rigidbody.transform.rotation = Quaternion.Euler(rigidbody.transform.rotation.eulerAngles.x, rigidbody.transform.rotation.eulerAngles.y, 0);
+        parentGameObject.transform.rotation = Quaternion.Euler(parentGameObject.transform.rotation.eulerAngles.x, parentGameObject.transform.rotation.eulerAngles.y, 0);
     }
 }
