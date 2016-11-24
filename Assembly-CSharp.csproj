@@ -53,6 +53,7 @@
      <Compile Include="Assets\Scripts\gameplayScript\skiController.cs" />
      <Compile Include="Assets\Scripts\gameplayScript\switchWalkSnowboard.cs" />
      <Compile Include="Assets\Scripts\loadParameterOnScene.cs" />
+     <Compile Include="Assets\Scripts\moveTelecabine.cs" />
      <Compile Include="Assets\Scripts\onClickMenuSelect.cs" />
      <Compile Include="Assets\Scripts\onClickSnowboard.cs" />
      <Compile Include="Assets\Scripts\onHooverMenuText.cs" />
