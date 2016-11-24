@@ -19,7 +19,7 @@ public class perpendicularBody : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-        Debug.Log("x et z angle: " + parentGameObject.transform.eulerAngles.x + " " + parentGameObject.transform.eulerAngles.z);
+        //Debug.Log("x et z angle: " + parentGameObject.transform.eulerAngles.x + " " + parentGameObject.transform.eulerAngles.z);
         var xAngle = parentGameObject.transform.eulerAngles.x;
         if (xAngle>0 && xAngle<180)
         {

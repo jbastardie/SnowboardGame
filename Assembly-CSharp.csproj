@@ -60,6 +60,7 @@
      <Compile Include="Assets\Scripts\parameterClass.cs" />
      <Compile Include="Assets\Scripts\rotationSnowboard.cs" />
      <Compile Include="Assets\Scripts\stateMachine.cs" />
+     <Compile Include="Assets\Scripts\teleportSkiStation.cs" />
      <Compile Include="Assets\Winter Nature Pack\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Winter Nature Pack\Standard Assets\Image Effects (Pro Only)\BlurEffect.cs" />
      <Compile Include="Assets\Winter Nature Pack\Standard Assets\Image Effects (Pro Only)\ColorCorrectionEffect.cs" />

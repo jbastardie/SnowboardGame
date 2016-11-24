@@ -22,7 +22,8 @@ public class switchWalkSnowboard : MonoBehaviour {
         {
             if (isSnowboarding)
             {
-                transform.rotation = Quaternion.Euler(0, 0, 0);
+                
+                transform.rotation = Quaternion.Euler(0, snowboardObject.transform.eulerAngles.y, 0);
                 parameterClass.currentCharacter.transform.GetChild(0).gameObject.transform.GetChild(2).gameObject.GetComponent<perpendicularBody>().enabled = false;
                 animationObj.enabled = true;
                 StartCoroutine(TimeoutSnowMarche());

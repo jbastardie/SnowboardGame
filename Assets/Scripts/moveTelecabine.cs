@@ -2,32 +2,58 @@
 using System.Collections;
 
 public class moveTelecabine : MonoBehaviour {
-    public Vector3 xyz;
+    public Vector3 arrival;
     public float speed;
     private bool insideCabine = false;
     public GameObject snowboarder;
     public GameObject porteGauche;
     public GameObject porteDroite;
+    private Vector3 departure;
     private bool doorOpen = false;
     private bool doorAreOpening = false;
+    private bool cabineIsMoving = false;
 
     void Start()
     {
+        departure = transform.position;
         openDoor();
-        xyz.z = 64;
+        arrival.z = 64;
     }
     
     void Update()
     {
         if (insideCabine)
         {
-            float step = speed * Time.deltaTime;
-            transform.position = Vector3.MoveTowards(transform.position, xyz, step); 
-            if(transform.position == xyz && !doorOpen && !doorAreOpening)
+            if (!cabineIsMoving && transform.position == departure) {
+
+                cabineIsMoving = true;
+                StartCoroutine(TimeoutGoTo(arrival));
+                
+            }
+            //float step = speed * Time.deltaTime;
+            //transform.position = Vector3.MoveTowards(transform.position, xyz, step); 
+            if(transform.position == arrival && !doorOpen && !doorAreOpening)
             {
                 openDoor();
+                cabineIsMoving = false;
             }
 
+        }
+        else
+        {
+
+            if (!cabineIsMoving && transform.position == arrival)
+            {
+                Debug.Log("go back to base");
+                cabineIsMoving = true;
+                StartCoroutine(TimeoutGoTo(departure));
+            }
+
+            if (transform.position == departure && !doorOpen && !doorAreOpening)
+            {
+                openDoor();
+                cabineIsMoving = false;
+            }
         }
     }
 
@@ -42,6 +68,10 @@ public class moveTelecabine : MonoBehaviour {
     {
         insideCabine = false;
         snowboarder.transform.parent = null;
+        if (doorOpen)
+        {
+            closeDoor();
+        }
     }
 
     void openDoor()
@@ -66,7 +96,7 @@ public class moveTelecabine : MonoBehaviour {
         doorOpen = false;
     }
 
-    IEnumerator MoveFromTo(Vector3 pointA, Vector3 pointB, float time, GameObject porte)
+    IEnumerator MoveFromTo(Vector3 pointA, Vector3 pointB, float time, GameObject element)
     {
         
          // do nothing if already moving
@@ -74,7 +104,7 @@ public class moveTelecabine : MonoBehaviour {
         while (t < 1f)
         {
             t += Time.deltaTime / time; // sweeps from 0 to 1 in time seconds
-            porte.transform.localPosition = Vector3.Lerp(pointA, pointB, t); // set position proportional to t
+            element.transform.localPosition = Vector3.Lerp(pointA, pointB, t); // set position proportional to t
             doorAreOpening = true;
             yield return 0; // leave the routine and return here in the next frame
         }
@@ -82,10 +112,12 @@ public class moveTelecabine : MonoBehaviour {
 
     }
 
-    IEnumerator Timeout()
+    IEnumerator TimeoutGoTo(Vector3 destination)
     {
         //disable the desired script here
-        yield return new WaitForSeconds(1F);
+        yield return new WaitForSeconds(1.5F);
+        Debug.Log("travelling from: "+ transform.position+" to "+destination);
+        StartCoroutine(MoveFromTo(transform.position, destination, speed, gameObject));
         //enable it here
     }
 
