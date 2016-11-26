@@ -24,9 +24,9 @@ public class switchWalkSnowboard : MonoBehaviour {
             {
                 
                 transform.rotation = Quaternion.Euler(0, snowboardObject.transform.eulerAngles.y, 0);
-                parameterClass.currentCharacter.transform.GetChild(0).gameObject.transform.GetChild(2).gameObject.GetComponent<perpendicularBody>().enabled = false;
-                animationObj.enabled = true;
-                StartCoroutine(TimeoutSnowMarche());
+                //parameterClass.currentCharacter.transform.GetChild(0).gameObject.transform.GetChild(2).gameObject.GetComponent<perpendicularBody>().enabled = false;
+                //animationObj.enabled = true;
+                //StartCoroutine(TimeoutSnowMarche());
                 animationObj.CrossFade("Grounded", 0.3f);
                 snowboardObject.SetActive(false);
                 snowCollinder.enabled = false;
@@ -34,6 +34,7 @@ public class switchWalkSnowboard : MonoBehaviour {
                 GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
                 GetComponent<ThirdPersonCharacter>().enabled = true;
                 GetComponent<ThirdPersonUserControl>().enabled = true;
+                GetComponent<getSpeed>().enabled = false;
                 GetComponent<skiController>().enabled = false;
                 parameterClass.currentCharacter.transform.localPosition = new Vector3(0, 0, 0);
                 parameterClass.currentCharacter.transform.localRotation = Quaternion.Euler(0, 0, 0);                  
@@ -41,7 +42,7 @@ public class switchWalkSnowboard : MonoBehaviour {
             }
             else
             {
-                animationObj.enabled = true;
+                //animationObj.enabled = true;
                 animationObj.CrossFade("snowboardState",0.1f);
                 snowboardObject.SetActive(true);
                 snowCollinder.enabled = true;
@@ -51,9 +52,10 @@ public class switchWalkSnowboard : MonoBehaviour {
                 GetComponent<ThirdPersonCharacter>().enabled = false;
                 GetComponent<ThirdPersonUserControl>().enabled = false;
                 GetComponent<skiController>().enabled = true;
-                StartCoroutine(TimeoutMarcheSnow());
-                parameterClass.currentCharacter.transform.localPosition = new Vector3(0.093f, -0.079f, 0.073f);
-                parameterClass.currentCharacter.transform.localRotation = Quaternion.Euler(0, 392.787f, 0);
+                GetComponent<getSpeed>().enabled = true;
+                //StartCoroutine(TimeoutMarcheSnow());
+                parameterClass.currentCharacter.transform.localPosition = new Vector3(0.093f, 0, 0.073f);
+                parameterClass.currentCharacter.transform.localRotation = Quaternion.Euler(-6f, 392.787f, 0);
                 isSnowboarding = true;
             }
         }
