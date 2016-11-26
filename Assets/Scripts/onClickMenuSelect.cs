@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class onClickMenuSelect : MonoBehaviour {
 
+    public Animator cameraAnimator;
 
     // Use this for initialization
     void Start () {
@@ -28,10 +29,19 @@ public class onClickMenuSelect : MonoBehaviour {
 
                         //snowboarder.transform.Translate(0, -0.10f, 0);
                         break;
-                    case "Level":
-                        Debug.Log("Level!");
+                    case "Credit":
+                        Debug.Log("Credit!");
+                        cameraAnimator.Play("goCredit");
+                        break;
+                    case "BackFromCredit":
+                        cameraAnimator.Play("reverseCredit");
                         break;
                     case "Score":
+                        cameraAnimator.Play("cameraAnimationScore");
+                        break;
+                    case "BackFromScore":
+                        Debug.Log("back main menu");
+                        cameraAnimator.Play("revertAnimationScore");
                         break;
                     case "Quit":
                         Application.Quit();
