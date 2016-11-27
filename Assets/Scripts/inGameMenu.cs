@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityStandardAssets.ImageEffects;
+using UnityEngine.SceneManagement;
 
 public class inGameMenu : MonoBehaviour {
     public GameObject menuCanvas;
@@ -31,5 +32,24 @@ public class inGameMenu : MonoBehaviour {
                 Time.timeScale = 0;
             }
         }
+    }
+
+    public void reprendre()
+    {
+        Cursor.visible = false;
+        menuCanvas.SetActive(false);
+        GetComponent<MouseAimCamera>().enabled = true;
+        GetComponent<BlurOptimized>().enabled = false;
+        Time.timeScale = 1;
+    }
+
+    public void retourMainMenu()
+    {
+        SceneManager.LoadScene("VallezMenuScene");
+    }
+
+    public void quitter()
+    {
+        Application.Quit();
     }
 }
