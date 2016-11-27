@@ -73,11 +73,6 @@ public class MouseAimCamera : MonoBehaviour
             velocityY = Mathf.Lerp(velocityY, 0, Time.deltaTime * smoothTime);
         }
 
-        if (Input.GetKeyDown(KeyCode.Escape))
-        {
-            Cursor.visible = true;
-        }
-
     }
 
     void Update()
