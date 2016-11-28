@@ -5,16 +5,20 @@ using UnityEngine.SceneManagement;
 public class onClickMenuSelect : MonoBehaviour {
 
     public Animator cameraAnimator;
+    public AudioClip letsGo;
+    public AudioClip click;
+    AudioSource audio;
 
     // Use this for initialization
     void Start () {
-
+        audio = GetComponent<AudioSource>();
     }
 	
 	// Update is called once per frame
 	void Update () {
         if (Input.GetMouseButtonDown(0))
         {
+            audio.PlayOneShot(click, 0.5f);
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
             if (Physics.Raycast(ray, out hit))
@@ -25,6 +29,7 @@ public class onClickMenuSelect : MonoBehaviour {
                         Debug.Log("Play Game!");
                         var animationObj = parameterClass.currentCharacter.GetComponent<Animator>();
                         animationObj.CrossFade("pointing",0.05f);
+                        audio.PlayOneShot(letsGo);
                         StartCoroutine(MyCoroutine());
 
                         //snowboarder.transform.Translate(0, -0.10f, 0);
