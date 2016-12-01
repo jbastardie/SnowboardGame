@@ -45,6 +45,32 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\EventActionFramework\AbstractClasses\CustomActionScript.cs" />
+     <Compile Include="Assets\Scripts\EventActionFramework\AbstractClasses\CustomEventScript.cs" />
+     <Compile Include="Assets\Scripts\EventActionFramework\Actions\CAApplyForce.cs" />
+     <Compile Include="Assets\Scripts\EventActionFramework\Actions\CAApplyForceOnTarget.cs" />
+     <Compile Include="Assets\Scripts\EventActionFramework\Actions\CADebugLogMessage.cs" />
+     <Compile Include="Assets\Scripts\EventActionFramework\Actions\CADestroyGameObject.cs" />
+     <Compile Include="Assets\Scripts\EventActionFramework\Actions\CALoadLevel.cs" />
+     <Compile Include="Assets\Scripts\EventActionFramework\Actions\CANextLevel.cs" />
+     <Compile Include="Assets\Scripts\EventActionFramework\Actions\CAPrefabSpawner.cs" />
+     <Compile Include="Assets\Scripts\EventActionFramework\Actions\CAPrintCustomMessageOnGUIForSeconds.cs" />
+     <Compile Include="Assets\Scripts\EventActionFramework\Actions\CASetActiveGameObjectProperty.cs" />
+     <Compile Include="Assets\Scripts\EventActionFramework\Actions\CASetRigidBodyKinematicProperty.cs" />
+     <Compile Include="Assets\Scripts\EventActionFramework\Actions\CATeleport.cs" />
+     <Compile Include="Assets\Scripts\EventActionFramework\Actions\CATeleportTarget.cs" />
+     <Compile Include="Assets\Scripts\EventActionFramework\Events\CEOnAwake.cs" />
+     <Compile Include="Assets\Scripts\EventActionFramework\Events\CEOnCollisionEnter.cs" />
+     <Compile Include="Assets\Scripts\EventActionFramework\Events\CEOnCollisionExit.cs" />
+     <Compile Include="Assets\Scripts\EventActionFramework\Events\CEOnDestroy.cs" />
+     <Compile Include="Assets\Scripts\EventActionFramework\Events\CEOnDisable.cs" />
+     <Compile Include="Assets\Scripts\EventActionFramework\Events\CEOnEnable.cs" />
+     <Compile Include="Assets\Scripts\EventActionFramework\Events\CEOnMouseDown.cs" />
+     <Compile Include="Assets\Scripts\EventActionFramework\Events\CEOnStart.cs" />
+     <Compile Include="Assets\Scripts\EventActionFramework\Events\CEOnTriggerEnter.cs" />
+     <Compile Include="Assets\Scripts\EventActionFramework\Events\CEOnTriggerExit.cs" />
+     <Compile Include="Assets\Scripts\EventActionFramework\Events\CEOnUpdate.cs" />
+     <Compile Include="Assets\Scripts\Forcebooster.cs" />
      <Compile Include="Assets\Scripts\GlobalControl.cs" />
      <Compile Include="Assets\Scripts\UIScript\hooverScript.cs" />
      <Compile Include="Assets\Scripts\changeCharacters.cs" />

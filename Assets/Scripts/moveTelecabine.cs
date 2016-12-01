@@ -8,6 +8,7 @@ public class moveTelecabine : MonoBehaviour {
     public GameObject snowboarder;
     public GameObject porteGauche;
     public GameObject porteDroite;
+    public Animation animationCabine;
     private Vector3 departure;
     private bool doorOpen = false;
     private bool doorAreOpening = false;
@@ -15,16 +16,15 @@ public class moveTelecabine : MonoBehaviour {
 
     void Start()
     {
-        departure = transform.position;
+        departure = transform.localPosition;
         openDoor();
-        arrival.z = 64;
     }
     
     void Update()
     {
         if (insideCabine)
         {
-            if (!cabineIsMoving && transform.position == departure) {
+            if (!cabineIsMoving && transform.localPosition == departure) {
 
                 cabineIsMoving = true;
                 StartCoroutine(TimeoutGoTo(arrival));
@@ -32,7 +32,7 @@ public class moveTelecabine : MonoBehaviour {
             }
             //float step = speed * Time.deltaTime;
             //transform.position = Vector3.MoveTowards(transform.position, xyz, step); 
-            if(transform.position == arrival && !doorOpen && !doorAreOpening)
+            if(transform.localPosition == arrival && !doorOpen && !doorAreOpening)
             {
                 openDoor();
                 cabineIsMoving = false;
@@ -42,14 +42,14 @@ public class moveTelecabine : MonoBehaviour {
         else
         {
 
-            if (!cabineIsMoving && transform.position == arrival)
+            if (!cabineIsMoving && transform.localPosition == arrival)
             {
                 Debug.Log("go back to base");
                 cabineIsMoving = true;
                 StartCoroutine(TimeoutGoTo(departure));
             }
 
-            if (transform.position == departure && !doorOpen && !doorAreOpening)
+            if (transform.localPosition == departure && !doorOpen && !doorAreOpening)
             {
                 openDoor();
                 cabineIsMoving = false;
@@ -117,7 +117,16 @@ public class moveTelecabine : MonoBehaviour {
         //disable the desired script here
         yield return new WaitForSeconds(1.5F);
         Debug.Log("travelling from: "+ transform.position+" to "+destination);
-        StartCoroutine(MoveFromTo(transform.position, destination, speed, gameObject));
+        StartCoroutine(MoveFromTo(transform.localPosition, destination, speed, gameObject));
+        //enable it here
+    }
+
+    IEnumerator TimeoutAnimation()
+    {
+        //disable the desired script here
+        yield return new WaitForSeconds(1.5F);
+        Debug.Log("animation start");
+        animationCabine.Play();
         //enable it here
     }
 
