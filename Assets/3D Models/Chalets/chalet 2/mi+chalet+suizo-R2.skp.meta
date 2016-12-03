@@ -1,0 +1,1071 @@
+fileFormatVersion: 2
+guid: 874d753db1421fd4abc8494eb3c03c99
+timeCreated: 1480802831
+licenseType: Free
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000760000007700000078000000790000007a0000007b0000007c0000007d0000007e0000007f000000800000008100000082000000830000008400000085000000860000008700000088000000890000008a0000008b0000008c0000008d0000008e0000008f000000900000009100000092000000930000009400000095000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000a4000000a5000000a6000000a7000000a8000000a9000000aa000000ab000000ac000000ad000000ae000000af000000b0000000b1000000b2000000b3000000b4000000b5000000b6000000b7000000b8000000b9000000ba000000bb000000bc000000bd000000be000000bf000000c0000000c1000000c2000000c3000000c4000000c5000000c6000000c7000000c8000000c9000000ca000000cb000000cc000000cd000000ce000000cf000000d0000000d1000000d2000000d3000000d4000000d5000000d6000000d7000000d8000000d9000000da000000db000000dc000000dd000000de000000df000000e0000000e1000000e2000000e3000000e4000000e5000000e6000000e7000000e8000000e9000000ea000000eb000000ec000000ed000000ee000000ef000000f0000000f1000000f2000000f3000000f4000000f5000000f6000000f7000000f8000000f9000000fa000000fb000000fc000000fd000000fe000000ff000000000100000101000002010000030100000401000005010000060100000701000008010000090100000a0100000b0100000c0100000d0100000e0100000f010000100100001101000012010000130100001401000015010000160100001701000018010000190100001a0100001b0100001c0100001d0100001e0100001f010000200100002101000022010000230100002401000025010000260100002701000028010000290100002a0100002b0100002c0100002d0100002e0100002f010000300100003101000032010000330100003401000035010000360100003701000038010000390100003a0100003b0100003c0100003d0100003e0100003f010000400100004101000042010000430100004401000045010000460100004701000048010000490100004a0100004b0100004c0100004d0100004e0100004f010000500100005101000052010000530100005401000055010000560100005701000058010000590100005a0100005b0100005c0100005d0100005e0100005f010000600100006101000062010000630100006401000065010000660100006701000068010000690100006a0100006b0100006c0100006d0100006e0100006f010000700100007101000072010000730100007401000075010000760100007701000078010000790100007a0100007b0100007c0100007d0100007e0100007f010000800100008101000082010000830100008401000085010000860100008701000088010000890100008a0100008b0100008c0100008d0100008e0100008f010000900100009101000092010000930100009401000095010000960100009701000098010000990100009a0100009b0100009c0100009d0100009e0100009f010000a0010000a1010000a2010000a3010000a4010000a5010000a6010000a7010000a8010000a9010000aa010000ab010000ac010000ad010000ae010000af010000b0010000b1010000b2010000b3010000b4010000b5010000b6010000b7010000b8010000b9010000ba010000bb010000bc010000bd010000be010000bf010000c0010000c1010000c2010000c3010000c4010000c5010000c6010000c7010000c8010000c9010000ca010000cb010000cc010000cd010000ce010000cf010000d0010000d1010000d2010000d3010000d4010000d5010000d6010000d7010000d8010000d9010000da010000
+  assetHash:
+    serializedVersion: 2
+    Hash: 40378ae68acd530d73f3f16b55dabc77
+  longitude: -105.283
+  latitude: 40.017
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: -8.923626, y: 4.3123245, z: -10.869782}
+      lookAt: {x: 5.2216926, y: 4.168461, z: 4.76938}
+      up: {x: 0.004576284, y: 0.99997675, z: 0.005059572}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Agrupar#66
+    100002: box
+    100004: box 1
+    100006: box 10
+    100008: box 11
+    100010: box 12
+    100012: box 13
+    100014: box 14
+    100016: box 15
+    100018: box 16
+    100020: box 17
+    100022: box 18
+    100024: box 19
+    100026: box 2
+    100028: box 20
+    100030: box 21
+    100032: box 22
+    100034: box 23
+    100036: box 3
+    100038: box 4
+    100040: box 5
+    100042: box 6
+    100044: box 7
+    100046: box 8
+    100048: box 9
+    100050: Componente#2
+    100052: Componente#2 1
+    100054: Componente#2 10
+    100056: Componente#2 11
+    100058: Componente#2 12
+    100060: Componente#2 13
+    100062: Componente#2 14
+    100064: Componente#2 15
+    100066: Componente#2 16
+    100068: Componente#2 17
+    100070: Componente#2 18
+    100072: Componente#2 19
+    100074: Componente#2 2
+    100076: Componente#2 20
+    100078: Componente#2 21
+    100080: Componente#2 22
+    100082: Componente#2 23
+    100084: Componente#2 24
+    100086: Componente#2 3
+    100088: Componente#2 4
+    100090: Componente#2 5
+    100092: Componente#2 6
+    100094: Componente#2 7
+    100096: Componente#2 8
+    100098: Componente#2 9
+    100100: Componente#3
+    100102: Componente#3 1
+    100104: Componente#4
+    100106: Componente#7
+    100108: Componente#7 1
+    100110: Componente#7 10
+    100112: Componente#7 2
+    100114: Componente#7 3
+    100116: Componente#7 4
+    100118: Componente#7 5
+    100120: Componente#7 6
+    100122: Componente#7 7
+    100124: Componente#7 8
+    100126: Componente#7 9
+    100128: Componente#8
+    100130: Componente#8 1
+    100132: Componente#8 10
+    100134: Componente#8 2
+    100136: Componente#8 3
+    100138: Componente#8 4
+    100140: Componente#8 5
+    100142: Componente#8 6
+    100144: Componente#8 7
+    100146: Componente#8 8
+    100148: Componente#8 9
+    100150: Componente#9
+    100152: Componente#9 1
+    100154: Componente#9 2
+    100156: degrau
+    100158: degrau 1
+    100160: degrau 10
+    100162: degrau 11
+    100164: degrau 12
+    100166: degrau 2
+    100168: degrau 3
+    100170: degrau 4
+    100172: degrau 5
+    100174: degrau 6
+    100176: degrau 7
+    100178: degrau 8
+    100180: degrau 9
+    100182: ESCADA DE MADEIRA
+    100184: escada em madeira e ferro.
+    100186: finestra
+    100188: finestra 1
+    100190: finestra 2 ante
+    100192: finestra 2 ante 1
+    100194: Group 1
+    100196: Group 100
+    100198: Group 117
+    100200: Group 119
+    100202: Group 121
+    100204: Group 123
+    100206: Group 13
+    100208: Group 18
+    100210: Group 23
+    100212: Group 28
+    100214: Group 3
+    100216: Group 33
+    100218: Group 38
+    100220: Group 429
+    100222: Group 43
+    100224: Group 431
+    100226: Group 433
+    100228: Group 435
+    100230: Group 437
+    100232: Group 439
+    100234: Group 48
+    100236: Group 53
+    100238: Group 58
+    100240: Group 60
+    100242: Group 62
+    100244: Group 64
+    100246: Group 66
+    100248: Group 68
+    100250: Group 70
+    100252: Group 72
+    100254: Group 74
+    100256: Group 76
+    100258: Group 78
+    100260: Group 8
+    100262: Group 80
+    100264: Group 82
+    100266: Group 84
+    100268: Group 86
+    100270: Group 88
+    100272: Group 90
+    100274: Group 92
+    100276: Group 94
+    100278: Group 96
+    100280: Group 98
+    100282: Group#14
+    100284: Group#14 1
+    100286: Group#14 10
+    100288: Group#14 11
+    100290: Group#14 12
+    100292: Group#14 13
+    100294: Group#14 14
+    100296: Group#14 15
+    100298: Group#14 16
+    100300: Group#14 17
+    100302: Group#14 18
+    100304: Group#14 19
+    100306: Group#14 2
+    100308: Group#14 20
+    100310: Group#14 21
+    100312: Group#14 22
+    100314: Group#14 23
+    100316: Group#14 24
+    100318: Group#14 25
+    100320: Group#14 26
+    100322: Group#14 27
+    100324: Group#14 28
+    100326: Group#14 29
+    100328: Group#14 3
+    100330: Group#14 30
+    100332: Group#14 31
+    100334: Group#14 32
+    100336: Group#14 33
+    100338: Group#14 34
+    100340: Group#14 35
+    100342: Group#14 4
+    100344: Group#14 5
+    100346: Group#14 6
+    100348: Group#14 7
+    100350: Group#14 8
+    100352: Group#14 9
+    100354: Janela - Aba comum
+    100356: Janela - Aba comum 1
+    100358: Janela - Aba comum 10
+    100360: Janela - Aba comum 11
+    100362: Janela - Aba comum 2
+    100364: Janela - Aba comum 3
+    100366: Janela - Aba comum 4
+    100368: Janela - Aba comum 5
+    100370: Janela - Aba comum 6
+    100372: Janela - Aba comum 7
+    100374: Janela - Aba comum 8
+    100376: Janela - Aba comum 9
+    100378: Janela - Aba de apoio
+    100380: Janela - Aba de apoio 1
+    100382: Janela - Aba de apoio 2
+    100384: Janela - Aba de apoio 3
+    100386: Janela - Aba de apoio 4
+    100388: Janela - Aba de apoio 5
+    100390: Janela - Vidro
+    100392: Janela - Vidro 1
+    100394: Janela - Vidro 10
+    100396: Janela - Vidro 11
+    100398: Janela - Vidro 12
+    100400: Janela - Vidro 13
+    100402: Janela - Vidro 14
+    100404: Janela - Vidro 15
+    100406: Janela - Vidro 16
+    100408: Janela - Vidro 17
+    100410: Janela - Vidro 18
+    100412: Janela - Vidro 19
+    100414: Janela - Vidro 2
+    100416: Janela - Vidro 20
+    100418: Janela - Vidro 21
+    100420: Janela - Vidro 22
+    100422: Janela - Vidro 23
+    100424: Janela - Vidro 24
+    100426: Janela - Vidro 25
+    100428: Janela - Vidro 26
+    100430: Janela - Vidro 27
+    100432: Janela - Vidro 28
+    100434: Janela - Vidro 29
+    100436: Janela - Vidro 3
+    100438: Janela - Vidro 30
+    100440: Janela - Vidro 31
+    100442: Janela - Vidro 32
+    100444: Janela - Vidro 33
+    100446: Janela - Vidro 34
+    100448: Janela - Vidro 35
+    100450: Janela - Vidro 4
+    100452: Janela - Vidro 5
+    100454: Janela - Vidro 6
+    100456: Janela - Vidro 7
+    100458: Janela - Vidro 8
+    100460: Janela - Vidro 9
+    100462: Janela+de+Madeira+1400x2045
+    100464: Janela+de+Madeira+1400x2045 1
+    100466: Janela+de+Madeira+1400x2045 2
+    100468: Janela+de+Madeira+1400x2045 3
+    100470: Janela+de+Madeira+1400x2045 4
+    100472: Janela+de+Madeira+1400x2045 5
+    100474: //RootNode
+    100476: persiana#1
+    100478: persiana#1 1
+    100480: persiana#1 2
+    100482: persiana#1 3
+    100484: Puerta
+    100486: 'Window '
+    100488: Window  1
+    100490: Window  2
+    100492: Window  3
+    100494: Window  4
+    100496: Window  5
+    100498: Windows
+    100500: Windows 1
+    100502: Windows 2
+    100504: Windows 3
+    100506: Windows 4
+    100508: Windows 5
+    400000: Agrupar#66
+    400002: box
+    400004: box 1
+    400006: box 10
+    400008: box 11
+    400010: box 12
+    400012: box 13
+    400014: box 14
+    400016: box 15
+    400018: box 16
+    400020: box 17
+    400022: box 18
+    400024: box 19
+    400026: box 2
+    400028: box 20
+    400030: box 21
+    400032: box 22
+    400034: box 23
+    400036: box 3
+    400038: box 4
+    400040: box 5
+    400042: box 6
+    400044: box 7
+    400046: box 8
+    400048: box 9
+    400050: Componente#2
+    400052: Componente#2 1
+    400054: Componente#2 10
+    400056: Componente#2 11
+    400058: Componente#2 12
+    400060: Componente#2 13
+    400062: Componente#2 14
+    400064: Componente#2 15
+    400066: Componente#2 16
+    400068: Componente#2 17
+    400070: Componente#2 18
+    400072: Componente#2 19
+    400074: Componente#2 2
+    400076: Componente#2 20
+    400078: Componente#2 21
+    400080: Componente#2 22
+    400082: Componente#2 23
+    400084: Componente#2 24
+    400086: Componente#2 3
+    400088: Componente#2 4
+    400090: Componente#2 5
+    400092: Componente#2 6
+    400094: Componente#2 7
+    400096: Componente#2 8
+    400098: Componente#2 9
+    400100: Componente#3
+    400102: Componente#3 1
+    400104: Componente#4
+    400106: Componente#7
+    400108: Componente#7 1
+    400110: Componente#7 10
+    400112: Componente#7 2
+    400114: Componente#7 3
+    400116: Componente#7 4
+    400118: Componente#7 5
+    400120: Componente#7 6
+    400122: Componente#7 7
+    400124: Componente#7 8
+    400126: Componente#7 9
+    400128: Componente#8
+    400130: Componente#8 1
+    400132: Componente#8 10
+    400134: Componente#8 2
+    400136: Componente#8 3
+    400138: Componente#8 4
+    400140: Componente#8 5
+    400142: Componente#8 6
+    400144: Componente#8 7
+    400146: Componente#8 8
+    400148: Componente#8 9
+    400150: Componente#9
+    400152: Componente#9 1
+    400154: Componente#9 2
+    400156: degrau
+    400158: degrau 1
+    400160: degrau 10
+    400162: degrau 11
+    400164: degrau 12
+    400166: degrau 2
+    400168: degrau 3
+    400170: degrau 4
+    400172: degrau 5
+    400174: degrau 6
+    400176: degrau 7
+    400178: degrau 8
+    400180: degrau 9
+    400182: ESCADA DE MADEIRA
+    400184: escada em madeira e ferro.
+    400186: finestra
+    400188: finestra 1
+    400190: finestra 2 ante
+    400192: finestra 2 ante 1
+    400194: Group 1
+    400196: Group 100
+    400198: Group 117
+    400200: Group 119
+    400202: Group 121
+    400204: Group 123
+    400206: Group 13
+    400208: Group 18
+    400210: Group 23
+    400212: Group 28
+    400214: Group 3
+    400216: Group 33
+    400218: Group 38
+    400220: Group 429
+    400222: Group 43
+    400224: Group 431
+    400226: Group 433
+    400228: Group 435
+    400230: Group 437
+    400232: Group 439
+    400234: Group 48
+    400236: Group 53
+    400238: Group 58
+    400240: Group 60
+    400242: Group 62
+    400244: Group 64
+    400246: Group 66
+    400248: Group 68
+    400250: Group 70
+    400252: Group 72
+    400254: Group 74
+    400256: Group 76
+    400258: Group 78
+    400260: Group 8
+    400262: Group 80
+    400264: Group 82
+    400266: Group 84
+    400268: Group 86
+    400270: Group 88
+    400272: Group 90
+    400274: Group 92
+    400276: Group 94
+    400278: Group 96
+    400280: Group 98
+    400282: Group#14
+    400284: Group#14 1
+    400286: Group#14 10
+    400288: Group#14 11
+    400290: Group#14 12
+    400292: Group#14 13
+    400294: Group#14 14
+    400296: Group#14 15
+    400298: Group#14 16
+    400300: Group#14 17
+    400302: Group#14 18
+    400304: Group#14 19
+    400306: Group#14 2
+    400308: Group#14 20
+    400310: Group#14 21
+    400312: Group#14 22
+    400314: Group#14 23
+    400316: Group#14 24
+    400318: Group#14 25
+    400320: Group#14 26
+    400322: Group#14 27
+    400324: Group#14 28
+    400326: Group#14 29
+    400328: Group#14 3
+    400330: Group#14 30
+    400332: Group#14 31
+    400334: Group#14 32
+    400336: Group#14 33
+    400338: Group#14 34
+    400340: Group#14 35
+    400342: Group#14 4
+    400344: Group#14 5
+    400346: Group#14 6
+    400348: Group#14 7
+    400350: Group#14 8
+    400352: Group#14 9
+    400354: Janela - Aba comum
+    400356: Janela - Aba comum 1
+    400358: Janela - Aba comum 10
+    400360: Janela - Aba comum 11
+    400362: Janela - Aba comum 2
+    400364: Janela - Aba comum 3
+    400366: Janela - Aba comum 4
+    400368: Janela - Aba comum 5
+    400370: Janela - Aba comum 6
+    400372: Janela - Aba comum 7
+    400374: Janela - Aba comum 8
+    400376: Janela - Aba comum 9
+    400378: Janela - Aba de apoio
+    400380: Janela - Aba de apoio 1
+    400382: Janela - Aba de apoio 2
+    400384: Janela - Aba de apoio 3
+    400386: Janela - Aba de apoio 4
+    400388: Janela - Aba de apoio 5
+    400390: Janela - Vidro
+    400392: Janela - Vidro 1
+    400394: Janela - Vidro 10
+    400396: Janela - Vidro 11
+    400398: Janela - Vidro 12
+    400400: Janela - Vidro 13
+    400402: Janela - Vidro 14
+    400404: Janela - Vidro 15
+    400406: Janela - Vidro 16
+    400408: Janela - Vidro 17
+    400410: Janela - Vidro 18
+    400412: Janela - Vidro 19
+    400414: Janela - Vidro 2
+    400416: Janela - Vidro 20
+    400418: Janela - Vidro 21
+    400420: Janela - Vidro 22
+    400422: Janela - Vidro 23
+    400424: Janela - Vidro 24
+    400426: Janela - Vidro 25
+    400428: Janela - Vidro 26
+    400430: Janela - Vidro 27
+    400432: Janela - Vidro 28
+    400434: Janela - Vidro 29
+    400436: Janela - Vidro 3
+    400438: Janela - Vidro 30
+    400440: Janela - Vidro 31
+    400442: Janela - Vidro 32
+    400444: Janela - Vidro 33
+    400446: Janela - Vidro 34
+    400448: Janela - Vidro 35
+    400450: Janela - Vidro 4
+    400452: Janela - Vidro 5
+    400454: Janela - Vidro 6
+    400456: Janela - Vidro 7
+    400458: Janela - Vidro 8
+    400460: Janela - Vidro 9
+    400462: Janela+de+Madeira+1400x2045
+    400464: Janela+de+Madeira+1400x2045 1
+    400466: Janela+de+Madeira+1400x2045 2
+    400468: Janela+de+Madeira+1400x2045 3
+    400470: Janela+de+Madeira+1400x2045 4
+    400472: Janela+de+Madeira+1400x2045 5
+    400474: //RootNode
+    400476: persiana#1
+    400478: persiana#1 1
+    400480: persiana#1 2
+    400482: persiana#1 3
+    400484: Puerta
+    400486: 'Window '
+    400488: Window  1
+    400490: Window  2
+    400492: Window  3
+    400494: Window  4
+    400496: Window  5
+    400498: Windows
+    400500: Windows 1
+    400502: Windows 2
+    400504: Windows 3
+    400506: Windows 4
+    400508: Windows 5
+    2300000: Agrupar#66
+    2300002: box
+    2300004: box 1
+    2300006: box 10
+    2300008: box 11
+    2300010: box 12
+    2300012: box 13
+    2300014: box 14
+    2300016: box 15
+    2300018: box 16
+    2300020: box 17
+    2300022: box 18
+    2300024: box 19
+    2300026: box 2
+    2300028: box 20
+    2300030: box 21
+    2300032: box 22
+    2300034: box 23
+    2300036: box 3
+    2300038: box 4
+    2300040: box 5
+    2300042: box 6
+    2300044: box 7
+    2300046: box 8
+    2300048: box 9
+    2300050: Componente#2
+    2300052: Componente#2 1
+    2300054: Componente#2 10
+    2300056: Componente#2 11
+    2300058: Componente#2 12
+    2300060: Componente#2 13
+    2300062: Componente#2 14
+    2300064: Componente#2 15
+    2300066: Componente#2 16
+    2300068: Componente#2 17
+    2300070: Componente#2 18
+    2300072: Componente#2 19
+    2300074: Componente#2 2
+    2300076: Componente#2 20
+    2300078: Componente#2 21
+    2300080: Componente#2 22
+    2300082: Componente#2 23
+    2300084: Componente#2 24
+    2300086: Componente#2 3
+    2300088: Componente#2 4
+    2300090: Componente#2 5
+    2300092: Componente#2 6
+    2300094: Componente#2 7
+    2300096: Componente#2 8
+    2300098: Componente#2 9
+    2300100: Componente#3
+    2300102: Componente#3 1
+    2300104: Componente#4
+    2300106: Componente#7
+    2300108: Componente#7 1
+    2300110: Componente#7 10
+    2300112: Componente#7 2
+    2300114: Componente#7 3
+    2300116: Componente#7 4
+    2300118: Componente#7 5
+    2300120: Componente#7 6
+    2300122: Componente#7 7
+    2300124: Componente#7 8
+    2300126: Componente#7 9
+    2300128: Componente#8
+    2300130: Componente#8 1
+    2300132: Componente#8 10
+    2300134: Componente#8 2
+    2300136: Componente#8 3
+    2300138: Componente#8 4
+    2300140: Componente#8 5
+    2300142: Componente#8 6
+    2300144: Componente#8 7
+    2300146: Componente#8 8
+    2300148: Componente#8 9
+    2300150: Componente#9
+    2300152: Componente#9 1
+    2300154: Componente#9 2
+    2300156: degrau
+    2300158: degrau 1
+    2300160: degrau 10
+    2300162: degrau 11
+    2300164: degrau 12
+    2300166: degrau 2
+    2300168: degrau 3
+    2300170: degrau 4
+    2300172: degrau 5
+    2300174: degrau 6
+    2300176: degrau 7
+    2300178: degrau 8
+    2300180: degrau 9
+    2300182: finestra 2 ante
+    2300184: finestra 2 ante 1
+    2300186: Group 1
+    2300188: Group 100
+    2300190: Group 117
+    2300192: Group 119
+    2300194: Group 121
+    2300196: Group 429
+    2300198: Group 431
+    2300200: Group 433
+    2300202: Group 435
+    2300204: Group 437
+    2300206: Group 439
+    2300208: Group 58
+    2300210: Group 60
+    2300212: Group 62
+    2300214: Group 64
+    2300216: Group 66
+    2300218: Group 68
+    2300220: Group 70
+    2300222: Group 72
+    2300224: Group 74
+    2300226: Group 76
+    2300228: Group 78
+    2300230: Group 80
+    2300232: Group 82
+    2300234: Group 84
+    2300236: Group 86
+    2300238: Group 88
+    2300240: Group 90
+    2300242: Group 92
+    2300244: Group 94
+    2300246: Group 96
+    2300248: Group 98
+    2300250: Group#14
+    2300252: Group#14 1
+    2300254: Group#14 10
+    2300256: Group#14 11
+    2300258: Group#14 12
+    2300260: Group#14 13
+    2300262: Group#14 14
+    2300264: Group#14 15
+    2300266: Group#14 16
+    2300268: Group#14 17
+    2300270: Group#14 18
+    2300272: Group#14 19
+    2300274: Group#14 2
+    2300276: Group#14 20
+    2300278: Group#14 21
+    2300280: Group#14 22
+    2300282: Group#14 23
+    2300284: Group#14 24
+    2300286: Group#14 25
+    2300288: Group#14 26
+    2300290: Group#14 27
+    2300292: Group#14 28
+    2300294: Group#14 29
+    2300296: Group#14 3
+    2300298: Group#14 30
+    2300300: Group#14 31
+    2300302: Group#14 32
+    2300304: Group#14 33
+    2300306: Group#14 34
+    2300308: Group#14 35
+    2300310: Group#14 4
+    2300312: Group#14 5
+    2300314: Group#14 6
+    2300316: Group#14 7
+    2300318: Group#14 8
+    2300320: Group#14 9
+    2300322: Janela - Aba comum
+    2300324: Janela - Aba comum 1
+    2300326: Janela - Aba comum 10
+    2300328: Janela - Aba comum 11
+    2300330: Janela - Aba comum 2
+    2300332: Janela - Aba comum 3
+    2300334: Janela - Aba comum 4
+    2300336: Janela - Aba comum 5
+    2300338: Janela - Aba comum 6
+    2300340: Janela - Aba comum 7
+    2300342: Janela - Aba comum 8
+    2300344: Janela - Aba comum 9
+    2300346: Janela - Vidro
+    2300348: Janela - Vidro 1
+    2300350: Janela - Vidro 10
+    2300352: Janela - Vidro 11
+    2300354: Janela - Vidro 12
+    2300356: Janela - Vidro 13
+    2300358: Janela - Vidro 14
+    2300360: Janela - Vidro 15
+    2300362: Janela - Vidro 16
+    2300364: Janela - Vidro 17
+    2300366: Janela - Vidro 18
+    2300368: Janela - Vidro 19
+    2300370: Janela - Vidro 2
+    2300372: Janela - Vidro 20
+    2300374: Janela - Vidro 21
+    2300376: Janela - Vidro 22
+    2300378: Janela - Vidro 23
+    2300380: Janela - Vidro 24
+    2300382: Janela - Vidro 25
+    2300384: Janela - Vidro 26
+    2300386: Janela - Vidro 27
+    2300388: Janela - Vidro 28
+    2300390: Janela - Vidro 29
+    2300392: Janela - Vidro 3
+    2300394: Janela - Vidro 30
+    2300396: Janela - Vidro 31
+    2300398: Janela - Vidro 32
+    2300400: Janela - Vidro 33
+    2300402: Janela - Vidro 34
+    2300404: Janela - Vidro 35
+    2300406: Janela - Vidro 4
+    2300408: Janela - Vidro 5
+    2300410: Janela - Vidro 6
+    2300412: Janela - Vidro 7
+    2300414: Janela - Vidro 8
+    2300416: Janela - Vidro 9
+    2300418: persiana#1
+    2300420: persiana#1 1
+    2300422: persiana#1 2
+    2300424: persiana#1 3
+    2300426: Puerta
+    2300428: 'Window '
+    2300430: Window  1
+    2300432: Window  2
+    2300434: Window  3
+    2300436: Window  4
+    2300438: Window  5
+    3300000: Agrupar#66
+    3300002: box
+    3300004: box 1
+    3300006: box 10
+    3300008: box 11
+    3300010: box 12
+    3300012: box 13
+    3300014: box 14
+    3300016: box 15
+    3300018: box 16
+    3300020: box 17
+    3300022: box 18
+    3300024: box 19
+    3300026: box 2
+    3300028: box 20
+    3300030: box 21
+    3300032: box 22
+    3300034: box 23
+    3300036: box 3
+    3300038: box 4
+    3300040: box 5
+    3300042: box 6
+    3300044: box 7
+    3300046: box 8
+    3300048: box 9
+    3300050: Componente#2
+    3300052: Componente#2 1
+    3300054: Componente#2 10
+    3300056: Componente#2 11
+    3300058: Componente#2 12
+    3300060: Componente#2 13
+    3300062: Componente#2 14
+    3300064: Componente#2 15
+    3300066: Componente#2 16
+    3300068: Componente#2 17
+    3300070: Componente#2 18
+    3300072: Componente#2 19
+    3300074: Componente#2 2
+    3300076: Componente#2 20
+    3300078: Componente#2 21
+    3300080: Componente#2 22
+    3300082: Componente#2 23
+    3300084: Componente#2 24
+    3300086: Componente#2 3
+    3300088: Componente#2 4
+    3300090: Componente#2 5
+    3300092: Componente#2 6
+    3300094: Componente#2 7
+    3300096: Componente#2 8
+    3300098: Componente#2 9
+    3300100: Componente#3
+    3300102: Componente#3 1
+    3300104: Componente#4
+    3300106: Componente#7
+    3300108: Componente#7 1
+    3300110: Componente#7 10
+    3300112: Componente#7 2
+    3300114: Componente#7 3
+    3300116: Componente#7 4
+    3300118: Componente#7 5
+    3300120: Componente#7 6
+    3300122: Componente#7 7
+    3300124: Componente#7 8
+    3300126: Componente#7 9
+    3300128: Componente#8
+    3300130: Componente#8 1
+    3300132: Componente#8 10
+    3300134: Componente#8 2
+    3300136: Componente#8 3
+    3300138: Componente#8 4
+    3300140: Componente#8 5
+    3300142: Componente#8 6
+    3300144: Componente#8 7
+    3300146: Componente#8 8
+    3300148: Componente#8 9
+    3300150: Componente#9
+    3300152: Componente#9 1
+    3300154: Componente#9 2
+    3300156: degrau
+    3300158: degrau 1
+    3300160: degrau 10
+    3300162: degrau 11
+    3300164: degrau 12
+    3300166: degrau 2
+    3300168: degrau 3
+    3300170: degrau 4
+    3300172: degrau 5
+    3300174: degrau 6
+    3300176: degrau 7
+    3300178: degrau 8
+    3300180: degrau 9
+    3300182: finestra 2 ante
+    3300184: finestra 2 ante 1
+    3300186: Group 1
+    3300188: Group 100
+    3300190: Group 117
+    3300192: Group 119
+    3300194: Group 121
+    3300196: Group 429
+    3300198: Group 431
+    3300200: Group 433
+    3300202: Group 435
+    3300204: Group 437
+    3300206: Group 439
+    3300208: Group 58
+    3300210: Group 60
+    3300212: Group 62
+    3300214: Group 64
+    3300216: Group 66
+    3300218: Group 68
+    3300220: Group 70
+    3300222: Group 72
+    3300224: Group 74
+    3300226: Group 76
+    3300228: Group 78
+    3300230: Group 80
+    3300232: Group 82
+    3300234: Group 84
+    3300236: Group 86
+    3300238: Group 88
+    3300240: Group 90
+    3300242: Group 92
+    3300244: Group 94
+    3300246: Group 96
+    3300248: Group 98
+    3300250: Group#14
+    3300252: Group#14 1
+    3300254: Group#14 10
+    3300256: Group#14 11
+    3300258: Group#14 12
+    3300260: Group#14 13
+    3300262: Group#14 14
+    3300264: Group#14 15
+    3300266: Group#14 16
+    3300268: Group#14 17
+    3300270: Group#14 18
+    3300272: Group#14 19
+    3300274: Group#14 2
+    3300276: Group#14 20
+    3300278: Group#14 21
+    3300280: Group#14 22
+    3300282: Group#14 23
+    3300284: Group#14 24
+    3300286: Group#14 25
+    3300288: Group#14 26
+    3300290: Group#14 27
+    3300292: Group#14 28
+    3300294: Group#14 29
+    3300296: Group#14 3
+    3300298: Group#14 30
+    3300300: Group#14 31
+    3300302: Group#14 32
+    3300304: Group#14 33
+    3300306: Group#14 34
+    3300308: Group#14 35
+    3300310: Group#14 4
+    3300312: Group#14 5
+    3300314: Group#14 6
+    3300316: Group#14 7
+    3300318: Group#14 8
+    3300320: Group#14 9
+    3300322: Janela - Aba comum
+    3300324: Janela - Aba comum 1
+    3300326: Janela - Aba comum 10
+    3300328: Janela - Aba comum 11
+    3300330: Janela - Aba comum 2
+    3300332: Janela - Aba comum 3
+    3300334: Janela - Aba comum 4
+    3300336: Janela - Aba comum 5
+    3300338: Janela - Aba comum 6
+    3300340: Janela - Aba comum 7
+    3300342: Janela - Aba comum 8
+    3300344: Janela - Aba comum 9
+    3300346: Janela - Vidro
+    3300348: Janela - Vidro 1
+    3300350: Janela - Vidro 10
+    3300352: Janela - Vidro 11
+    3300354: Janela - Vidro 12
+    3300356: Janela - Vidro 13
+    3300358: Janela - Vidro 14
+    3300360: Janela - Vidro 15
+    3300362: Janela - Vidro 16
+    3300364: Janela - Vidro 17
+    3300366: Janela - Vidro 18
+    3300368: Janela - Vidro 19
+    3300370: Janela - Vidro 2
+    3300372: Janela - Vidro 20
+    3300374: Janela - Vidro 21
+    3300376: Janela - Vidro 22
+    3300378: Janela - Vidro 23
+    3300380: Janela - Vidro 24
+    3300382: Janela - Vidro 25
+    3300384: Janela - Vidro 26
+    3300386: Janela - Vidro 27
+    3300388: Janela - Vidro 28
+    3300390: Janela - Vidro 29
+    3300392: Janela - Vidro 3
+    3300394: Janela - Vidro 30
+    3300396: Janela - Vidro 31
+    3300398: Janela - Vidro 32
+    3300400: Janela - Vidro 33
+    3300402: Janela - Vidro 34
+    3300404: Janela - Vidro 35
+    3300406: Janela - Vidro 4
+    3300408: Janela - Vidro 5
+    3300410: Janela - Vidro 6
+    3300412: Janela - Vidro 7
+    3300414: Janela - Vidro 8
+    3300416: Janela - Vidro 9
+    3300418: persiana#1
+    3300420: persiana#1 1
+    3300422: persiana#1 2
+    3300424: persiana#1 3
+    3300426: Puerta
+    3300428: 'Window '
+    3300430: Window  1
+    3300432: Window  2
+    3300434: Window  3
+    3300436: Window  4
+    3300438: Window  5
+    4300000: Mesh Group 1
+    4300002: Mesh Componente#7
+    4300004: Mesh Componente#8
+    4300006: Mesh Group 58
+    4300008: Mesh Puerta
+    4300010: Mesh Componente#2
+    4300012: Mesh Componente#3
+    4300014: Mesh Group 117
+    4300016: Mesh Group 119
+    4300018: Mesh Group 121
+    4300020: Mesh degrau
+    4300022: Mesh Agrupar#66
+    4300024: 'Mesh Window '
+    4300026: Mesh Componente#9
+    4300028: Mesh finestra 2 ante
+    4300030: Mesh persiana#1
+    4300032: Mesh box
+    4300034: Mesh box
+    4300036: Mesh box
+    4300038: Mesh Janela - Aba comum
+    4300040: Mesh Group#14
+    4300042: Mesh Janela - Vidro
+    4300044: Mesh box
+    4300046: Mesh Componente#4
+    4300048: Mesh Group 429
+    4300050: Mesh Group 431
+    4300052: Mesh Group 433
+    4300054: Mesh Group 435
+    4300056: Mesh Group 437
+    4300058: Mesh Group 439
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

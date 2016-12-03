@@ -10,7 +10,7 @@ public class switchWalkSnowboard : MonoBehaviour {
     public Collider marcheCollider;
  
     Animator animationObj;
-    private bool isSnowboarding = false;
+    public static bool isSnowboarding = false;
     // Use this for initialization
     void Start () {
         animationObj = snowboarderController.GetComponent<Animator>();
