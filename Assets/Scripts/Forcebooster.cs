@@ -18,7 +18,17 @@ public class Forcebooster : MonoBehaviour {
     {
         Debug.Log("booster!");
         snowboarder.GetComponent<Rigidbody>().AddForce(snowboarder.transform.forward * thrust, ForceMode.Acceleration);
+        snowboarder.GetComponent<skiController>().maxZXVelocity = 30;
+        StartCoroutine(TimeoutBooster());
         //snowboarder.GetComponent<Rigidbody>().AddForce(snowboarder.transform.forward * thrust);
+    }
+
+    IEnumerator TimeoutBooster()
+    {
+        //disable the desired script here
+        yield return new WaitForSeconds(2F);
+        snowboarder.GetComponent<skiController>().maxZXVelocity = 25;
+        //enable it here
     }
 
 }
