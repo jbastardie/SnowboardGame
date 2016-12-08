@@ -13,10 +13,13 @@ public class race1 : MonoBehaviour {
     private float raceTime;
     private bool triggerStart = false;
     private bool triggerFinish = false;
-	// Use this for initialization
-	void Start () {
-	
-	}
+    public AudioClip hereWeGo;
+    public AudioClip finishSong;
+    AudioSource audio;
+    // Use this for initialization
+    void Start () {
+        audio = GetComponent<AudioSource>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -24,6 +27,7 @@ public class race1 : MonoBehaviour {
         {
             initialTime = Time.time;
             raceStart = true;
+            audio.PlayOneShot(hereWeGo);
         }
         if (raceStart)
         {
@@ -36,6 +40,7 @@ public class race1 : MonoBehaviour {
         if(triggerFinish && raceStart)
         {
             raceStart = false;
+            audio.PlayOneShot(finishSong);
             StartCoroutine(Result());
         }
 

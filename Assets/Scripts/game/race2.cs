@@ -9,6 +9,8 @@ public class race2 : MonoBehaviour {
     public GameObject finish;
     public GameObject[] snowmen = new GameObject[1];
     public AudioClip collectSnowman;
+    public AudioClip hereWeGo;
+    public AudioClip finishSong;
     AudioSource audio;
     private bool triggerStart = false;
     private bool triggerFinish = false;
@@ -17,7 +19,7 @@ public class race2 : MonoBehaviour {
 
     // Use this for initialization
     void Start () {
-        
+        audio = GetComponent<AudioSource>();
     }
 	
 	// Update is called once per frame
@@ -35,6 +37,7 @@ public class race2 : MonoBehaviour {
         if (other.gameObject == start)
         {
             raceStart = true;
+            audio.PlayOneShot(hereWeGo);
         }
 
         if (other.gameObject == finish)
@@ -46,6 +49,7 @@ public class race2 : MonoBehaviour {
             {
                 snowman.SetActive(true);
             }
+            audio.PlayOneShot(finishSong);
 
         }
 
@@ -53,7 +57,7 @@ public class race2 : MonoBehaviour {
         {
             if(snowman == other.gameObject)
             {
-                audio = GetComponent<AudioSource>();
+                
                 audio.PlayOneShot(collectSnowman);
                 other.gameObject.SetActive(false);
                 score += 1;
@@ -67,5 +71,6 @@ public class race2 : MonoBehaviour {
         chronoUI.text = "Score: " +score + " bonhommes trouves";
         yield return new WaitForSeconds(3F);
         chronoUI.text = "";
+        score = 0;
     }
 }
