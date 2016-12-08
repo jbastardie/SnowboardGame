@@ -8,14 +8,17 @@ public class race2 : MonoBehaviour {
     public GameObject start;
     public GameObject finish;
     public GameObject[] snowmen = new GameObject[1];
+    public AudioClip collectSnowman;
+    AudioSource audio;
     private bool triggerStart = false;
     private bool triggerFinish = false;
     private bool raceStart = false;
     private int score = 0;
+
     // Use this for initialization
     void Start () {
-	
-	}
+        
+    }
 	
 	// Update is called once per frame
 	void Update () {
@@ -50,6 +53,8 @@ public class race2 : MonoBehaviour {
         {
             if(snowman == other.gameObject)
             {
+                audio = GetComponent<AudioSource>();
+                audio.PlayOneShot(collectSnowman);
                 other.gameObject.SetActive(false);
                 score += 1;
             }

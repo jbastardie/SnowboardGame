@@ -61,13 +61,7 @@ public class switchWalkSnowboard : MonoBehaviour {
         }
     }
 
-    IEnumerator TimeoutMarcheSnow()
-    {
-        //disable the desired script here
-        yield return new WaitForSeconds(2F);
-        parameterClass.currentCharacter.transform.GetChild(0).gameObject.transform.GetChild(2).gameObject.GetComponent<perpendicularBody>().enabled = true;
-        //enable it here
-    }
+
     IEnumerator TimeoutSnowMarche()
     {
         //disable the desired script here
